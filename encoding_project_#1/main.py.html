@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>main.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+main.py</font>
+</center></td></tr></table>
+<pre><span class="s0">import </span><span class="s1">unittest</span>
+<span class="s0">from </span><span class="s1">encoder </span><span class="s0">import </span><span class="s1">encoding_code</span>
+<span class="s1">code3 =</span><span class="s2">&quot;sjdkfn jdnfsk skjdnf&quot;</span>
+<span class="s1">code2=</span><span class="s2">&quot;dsjfj9dfi2,hfuf8fnsk2nnf8nbrg8&quot;</span>
+<span class="s1">code = </span><span class="s2">&quot;YXu0hYq1xQ4,hQXUCw8Cs7nIu8BAxIUADYf</span><span class="s0">\n\n</span><span class="s2">LRYUYw5LI0RYUUYs6hDXU3UIoIBbcm</span><span class="s0">\n</span><span class="s2">.CBSA5LI7RYUUYs2hDXU8YBbnIj</span><span class="s0">\n</span><span class="s2">.UIoIBbnI2LI8RYUUYs7hDXU2cYBbnQZ</span><span class="s0">\n</span><span class="s2">.cYBbnQo1LI9RYUUYs7hDXU4UDBk</span><span class="s0">\n</span><span class="s2">.JYUDoIBbnQo4LI3RYUUYs8hDXU6YLRDbj</span><span class="s0">\n</span><span class="s2">.JYULYh8LI3RYUUYs8hDXU1CUIBIsDJDYH</span><span class="s0">\n</span><span class="s2">.YLhYJ7BDIoYbj</span><span class="s0">\n</span><span class="s2">.LUhAQo0LYLDo3U'hYRD2BDIoYbL2XSAQhY0QU0MDYRs0YXU4XSAQXUBW</span><span class="s0">\n</span><span class="s2">.LYBAR8CUIBDoIUoDRb1LUDYs2LRQRRm</span><span class="s0">\n</span><span class="s2">.CUIRAb3JBAQXL6RYlYh9LLDb0LLYBha</span><span class="s0">\n</span><span class="s2">.CBUhYBIL0CBUIoIBbcY9hg</span><span class="s0">\n</span><span class="s2">.JYohYBIL1YXU5YoDx7xQ6,CUIASIsnD8YLAxYR0YXU9hQIUDUbnYU4QU3YRYXu</span><span class="s0">\n</span><span class="s2">.LLYAS1JBAQXL7Ys3--YhQ2JhD2CBsDRYxYRb2CBhQ9YhQ6LAQIlsQ--9CDO7QU1QJ0XSAQXUBW</span><span class="s0">\n</span><span class="s2">.UI4UDXU5CDO0CDn2UQh7Ys2LAQIlsQ0UD2ULRIx8LLYBhA2YR'AQC1OQe</span><span class="s0">\n</span><span class="s2">.XoUAv7LI3RYUUYs0hDXU8XSAQXUBW</span><span class="s0">\n</span><span class="s2">.RYlYh0RYlYh5LI9hYUxQ0RYUUYs2hDXU8*UXSIR*9xg</span><span class="s0">\n</span><span class="s2">.OQh4YXU3hQIUDUhYnYBbnI9LI1JRDX0QU6,hIDBbcY5L'UI3D7JDs6xg</span><span class="s0">\n</span><span class="s2">.DYJI4YXU6hQIUDUhYnYBbnI9LI9CLDY4QU3,hIDBbcY2UI5CDn4Ys8D8JQQS1LYoDbLYnDe</span><span class="s0">\n</span><span class="s2">.DYJI0YRD9YhQ6ShIMhQX2UDYRS4DYJI3--9L'UYB5QJ8YRQn9xQ0!YLQXU&quot;</span>
+
+<span class="s1">answer = </span><span class="s2">&quot;&quot;&quot;The Zen of Python, by Tim Peters 
+ 
+Beautiful is better than ugly. 
+Explicit is better than implicit. 
+Simple is better than complex. 
+Complex is better than complicated. 
+Flat is better than nested. 
+Sparse is better than dense. 
+Readability counts. 
+Special cases aren't special enough to break the rules. 
+Although practicality beats purity. 
+Errors should never pass silently. 
+Unless explicitly silenced. 
+In the face of ambiguity, refuse the temptation to guess. 
+There should be one-- and preferably only one --obvious way to do it. 
+Although that way may not be obvious at first unless you're Dutch. 
+Now is better than never. 
+Although never is often better than *right* now. 
+If the implementation is hard to explain, it's a bad idea. 
+If the implementation is easy to explain, it may be a good idea. 
+Namespaces are one honking great idea -- let's do more of those!&quot;&quot;&quot;</span>
+
+<span class="s1">answer2 = </span><span class="s2">&quot;&quot;&quot;SBSbM XBM BTBn, FbmB Bmm IWpm &quot;&quot;&quot;</span>
+
+<span class="s1">answer3 = </span><span class="s2">&quot;&quot;&quot;sjdkfn jdnfsk skjdnf&quot;&quot;&quot;</span>
+<span class="s0">class </span><span class="s1">Testing(unittest.TestCase):</span>
+    <span class="s0">def </span><span class="s1">test_if_equal(self):</span>
+        <span class="s1">self.assertEqual(encoding_code(code)</span><span class="s0">, </span><span class="s1">answer)</span>
+
+    <span class="s0">def </span><span class="s1">test_if_equal_again(self):</span>
+        <span class="s1">self.assertEquals(encoding_code(code2)</span><span class="s0">, </span><span class="s1">answer2)</span>
+
+    <span class="s0">def </span><span class="s1">test_if_not_equal(self):</span>
+        <span class="s1">self.assertNotEquals(encoding_code(code3)</span><span class="s0">, </span><span class="s1">answer3)</span>
+
+
+<span class="s0">if </span><span class="s1">__name__ == </span><span class="s2">'__main__'</span><span class="s1">:</span>
+    <span class="s1">unittest.main()</span></pre>
+</body>
+</html>
